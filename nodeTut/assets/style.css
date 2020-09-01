@@ -1,0 +1,27 @@
+body {background: skyblue; font-family: verdana; color: #fff; padding: 30px;}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+      }
+p {
+    font-size: 16px;
+    text-align: center;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     margin: 0% 10% 0% 10%;
+ }
+
+ label {
+     margin-top: 1%;
+ }
+ 
+ input {
+     margin-bottom: 2%;
+ }
+
