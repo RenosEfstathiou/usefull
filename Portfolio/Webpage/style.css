@@ -1,0 +1,299 @@
+*,*::after,*::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+
+/* navbar end */
+
+
+/* title section */
+.title {
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.title h1,.title p {
+    text-shadow:  2px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.profile-img {
+    height: 40vh;
+    border-radius: 200px;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(128, 127, 127, 0.19);
+     
+}
+
+.main-links {
+    margin-top: 4em;
+   
+}
+
+.svg1 {
+    height: 7vh;
+    margin: 5%;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.main-bg {
+    background-image: url(/img/code-coding-computer-data-574073.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 110vh;
+}
+
+/* service section */
+
+.services-bg {
+    background-image: url(/img//black-pen-near-iphone-and-apple-magic-keyboard-934062.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 7% 0% 7% 0% ; 
+}
+
+.service-container {
+    display: grid;
+    grid-template-rows:20%  80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-column-gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-title {
+    text-align: center;
+    margin-bottom: 10%;
+    grid-row: 1; 
+    border-bottom: 1px solid black;
+    grid-column: 2/3;
+}
+
+
+
+.svg {
+    height: 15vh;
+    margin: 5%;
+    padding-bottom: 3%;
+    border-bottom: 2px solid black;    
+    
+}
+
+.service-1 , .service-2, .service-3 {
+    margin: 3%;
+    padding: 3%;
+    text-align: center;
+    border-left: 3px solid  black;
+    border-right: 3px solid  black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 30px;
+}
+
+.service-1 {
+    grid-row: 2;
+    grid-column: 1/1;
+}
+
+.service-2 {
+    grid-row: 2;
+    grid-column: 2/3;
+}
+.service-3 {
+    grid-row: 2;
+    grid-column: 3/3;
+}
+/* work section */
+
+.work-container {
+    display: grid;
+    grid-template-rows:20% 40% 40%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+   
+}
+
+.work-title {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    margin-bottom: 15%;
+    grid-row: 1; 
+    grid-column: 2/3;
+}
+
+
+
+.project-1,.project-2, .project-3 {
+    margin: 0% 1%;
+    grid-row: 2;
+    text-align: center;
+    color: aliceblue;
+    height: 50vh;
+    border-radius: 30px;
+}
+
+.project-4,.project-5, .project-6 {
+    margin: 0% 1%;
+    grid-row: 3;
+    text-align: center;
+    color: aliceblue;
+    height: 50vh;
+    border-radius: 30px ;
+}
+
+.work-container p {
+    padding: 20%;
+    text-align: center;
+ 
+}
+
+.project-1 {
+    grid-column: 1;
+    background-image: url(/img/project1.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+
+.project-2 {
+    grid-column: 2/3;
+    background-image: url(/img/project2.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.project-3 {
+    grid-column: 3;
+    background-image: url(/img/project3.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.project-4 {
+    grid-column: 1;
+    background-image: url(/img/project4.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.project-5 {
+    grid-column: 2;
+    background-image: url(/img/project5.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.project-6 {
+    grid-column: 3;
+    background-image: url(/img/project6.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+/* about section */
+
+.about-container {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 20% 40% 40%;
+    text-align: center;
+    margin: 0% 20%;
+    background-color: rgba(155, 155, 155, 0.53);
+    grid-row-gap: 25px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(128, 127, 127, 0.19);
+    padding: 7% 0% 7% 0% ; 
+    
+  
+   }
+
+   .test-smthng {
+      text-align: left;
+   }
+
+.about-me-title {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 2%;
+      
+}
+
+.about-bg {
+    background-image: url(/img/grayscale-photography-of-sand-2387818.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 10% 0% 10% 0% ; 
+    
+}
+
+footer{
+    display: flex;
+    padding: 3% 0%;
+}
+
+/* .test-btn{
+     background:red;
+    position: fixed;
+    color: black;
+    font-weight: bold;
+    top: 80%;
+    right: 2%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-position: center;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;    
+} */
+
+@media all and (max-width: 875px){
+    .service-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
